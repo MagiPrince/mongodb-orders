@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "description": "Node.js api interacting with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://githepia.hesge.ch/joel.cavat/mongodb-orders"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "node",
+    "nodejs",
+    "api"
+  ],
+  "author": "Joël Cavat, Steven Liatti",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "mongodb": "^3.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
